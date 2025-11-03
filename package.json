@@ -1,0 +1,26 @@
+{
+  "name": "online-feedback-system",
+  "version": "1.0.0",
+  "private": true,
+  "homepage": "https://Kanhaiya413.github.io/online-feedback-system-react",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.18.0",
+    "tailwindcss": "^3.4.1"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^5.1.0",
+    "autoprefixer": "^10.4.21",
+    "gh-pages": "^6.3.0",
+    "postcss": "^8.5.6",
+    "vite": "^7.1.12"
+  }
+}
